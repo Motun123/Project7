@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
 
+
 body{
     background-color: #FAFAFA;
 }
@@ -101,8 +102,12 @@ input{
 }
 
 .bg-image{
+    height: 427.06px;
+    object-fit: contain;
     position: absolute;
-    top: 554px;left: 952px;
+    top: 554px;
+    left: 925px;
+    
     
 }
 .hero p{
@@ -127,13 +132,15 @@ input{
     letter-spacing: 0%;
 }
 
+.shop-btn a{
+    color: white;
+    text-decoration: none;
+}
+
 .shopping{
     text-align: center;
     margin-block: 0px 30px;
 }
-
-
-
 
 .hero h2{
     
@@ -144,14 +151,13 @@ input{
     text-align: center;
     width: 716px;
     margin-inline-start: 25%;
-    font-style: ;
     
 }
 
-
-
 .item-image{
-    width:1320px ; height: 458px;
+    max-width: 100%;
+    width: 100%;
+    height: 458px;
     object-fit: cover;
     padding: 10px 20px;
     border-radius: 30px; 
@@ -172,7 +178,7 @@ input{
     font-family: open sans;
     font-weight: 500;
     font-size: 16px;
-    line height: 100%;
+    line-height: 100%;
     margin: 0px;
 }
 
@@ -194,6 +200,9 @@ input{
 }
 
 .item-list img{
+    max-width: 100%;
+    width: 100vw;
+    height: auto;
     display: block;
     border-radius: 12px;
     
@@ -211,7 +220,6 @@ input{
 }
 
 .slide{
-    width: 1409px;
     font-family: open sans;
     font-weight: 500;
     size: 16px;
@@ -309,7 +317,9 @@ input{
 
 .product-img img{
     display: block;
-    width: 422px; height: 628px;
+    max-width: 100%;
+    width: 100vw; 
+    height: 628px;
     object-fit: cover;
     border-radius: 10px;
 
@@ -378,7 +388,8 @@ input{
 }
 
 .banner-img{
-    width: 1440px;
+    max-width: 100%;
+    width: 100%;
     height: 497px;
     object-fit: cover;
     display: block;
@@ -430,7 +441,8 @@ footer{
 }
 
 .footer-bg{
-    width: 1440px;
+    max-width: 100%;
+    width: 100%;
     height: 228.78px;
     background-color: #33160A;
     padding-block: 27px;
@@ -524,3 +536,6 @@ footer .bi{
     text-align: center;
 }
 
+@media (max-width: 720px){
+
+}

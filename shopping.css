@@ -243,7 +243,6 @@ input{
     font-family: open sans;
     font-weight: 600;
     font-size: 14px;
-    color: white;
     background-color: rgba(219, 88, 37, 1);
     padding: 6.32px 10.54px;
     border-radius: 8.43px;
@@ -252,25 +251,27 @@ input{
     position: absolute;
     bottom: 13px;
     right: 10px;
-    
-
 }
 
+.cart a{
+    color: white;
+    text-decoration: none;
+}
 
 .imagees .bi-heart{
-    width: 50px;
-    height: 50px;
+    width: 24px;
+    height: 21.33px;
     align-items: center;
     background-color:#D9D9D966 ;
     color: white;
+    padding: 10px;
     border-radius: 25px;
     position: absolute;
     top: 14px;
     left: 257px;
     text-align: center;
     font-size: 1.5rem;
-    vertical-align: auto;
-    padding: 10px;
+    
     
 }
 

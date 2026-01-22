@@ -756,6 +756,76 @@ footer .bi{
         
     }
 
+    .product-detail p{
+        font-size: 20px;
+    }
+
+    .right-hero h4{
+        width: 194px;
+        height: 22px;
+        font-size: 16px;
+    }
+
+    .description{
+        width: 283.43px;
+        height: 28px;
+        font-size: 12px;
+        line-height: 13.69px;
+    }
+
+    .total-reviews{
+        width: 50px;
+        height: 14px;
+        font-size: 10px;
+        line-height: 13.69px;
+    }
+
+
+    .cost-price{
+        font-size: 20px;
+    }
+
+    .quantity{
+        font-size: 14px;
+        line-height: 13.69px;
+    }
+
+
+    .add-up-2{
+        font-size: 16px;
+        line-height: 13.69px;
+
+    }
+
+    .add-up{
+        width: 86px;
+        height: 34px;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        padding-inline: 10px;
+        
+    }
+
+    .quantity-left{
+        font-size: 10px;
+        line-height: 13.69px;
+    }
+
+    .size{
+        font-size: 14px;
+        line-height: 13.69px;
+    }
+
+    .size-list p{
+        width: 16.54px;
+        font-size: 12px;
+        line-height: 13.69px;
+        color: #242424;
+        padding: 5px;
+        border: 1px solid #CFCFCF;
+    }
+
     .hero img{
         width: 352px;
         height: 284px;
@@ -768,6 +838,15 @@ footer .bi{
         gap: 10px;
     }
 
+    .inner-hero button{
+        width: 358px;
+        height: 56px;
+        font-size: 16px;
+        line-height: 24px;
+        padding: 16px 48x;
+        border: none;
+    }
+
     .shoe-flex img{
         width: 123.38px;
         height: 112px;
@@ -775,19 +854,84 @@ footer .bi{
 
     }
 
-
     .review-grid{
         grid-template-columns: 1fr;
     }
 
+    .reviews{
+        padding-block-start: 10px;
+    }
 
+
+    .review-details img{
+        width: 26.73px;
+        height: 26.72px;
+
+    }
+
+    .rating-section h3,
+    .reviews h3{
+        font-size: 20px;
+    }
 
     
 
 
 
 
+    .review-details h5{
+        width: 88px;
+        height: 17px;
+        font-size: 16px;
+        line-height: 16.45px;
+        margin-block: 0 5px;
 
+    }
+
+    .review-details{
+        padding-block-end: 10px;
+    }
+
+    .review-time{
+        font-size: 10px;
+        line-height: 16.45px;
+        margin-block: 0 5px;
+    }
+
+
+    .reviewer,
+    .review-flex{
+        display: flex;
+        gap: 20px;
+        justify-content: flex-start;
+    }
+
+    .review-text{
+        width: 299px;
+        height: 72px;
+        font-weight: 400;
+        font-size: 15px;
+        
+    }
+
+    
+
+    .bar{
+        width: 300px;
+        height: 20px;
+        background-color: rgb(202, 196, 196);
+        
+    }
+
+    .fill{
+        height: 100%;
+        width: 280px;
+        background-color: #DB5825;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        
+    }
 
 
 
